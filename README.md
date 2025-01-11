@@ -1,7 +1,7 @@
 # Rock Paper Scissors Game
 
 <img alt="version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-This is tha console version of the classical Rock Paper Scissors Game. There are two players and they both have to choose betwee
+This is tha console version of the classical Rock Paper Scissors Game. There are two players and they both have to choose between rock, paper and scissors. Based on their choice a winner is declared.
 
 ## Table of Contents
 - [Installation](#get_started)
