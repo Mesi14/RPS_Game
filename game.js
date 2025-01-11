@@ -53,4 +53,20 @@ let playRound = (humanChoice, computerChoice) => {
     }
 }
 
-playRound(getComputerChoice(), getHumanChoice());
+let playGame = () => {
+    console.log('Welcome to the Rock Paper Scissors Console App!')
+    console.log('===============================================')
+    for(let i=0; i<5; i++) {
+        playRound(getComputerChoice(), getHumanChoice());
+    }
+    if(humanScore > computerScore) {
+        console.log(`You win by ${humanScore-computerScore} points. Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
+    } else if(humanScore === computerScore) {
+        console.log(`It's a tie! Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
+    } else {
+        console.log(`You loose by ${computerScore-humanScore} points. Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
+    }
+    console.log("Game over!")
+}
+
+playGame();
