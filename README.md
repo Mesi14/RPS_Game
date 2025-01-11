@@ -1,7 +1,7 @@
 # Rock Paper Scissors Game
 
 <img alt="version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-This is tha console version of the classical Rock Paper Scissors Game. There are two players and they both have to choose betwee
+This is tha console version of the classical Rock Paper Scissors Game. There are two players, human vs computer, and they both have to choose between rock, paper and scissors. Based on their choice a winner is declared. For now it is played entirely in the console. 
 
 ## Table of Contents
 - [Installation](#get_started)
@@ -10,8 +10,8 @@ This is tha console version of the classical Rock Paper Scissors Game. There are
 - [Future Functionalities](#future_functionalities)
 - [Support](#support)
 
-
-![screenshot]()
+## Screenshot
+![screenshot](./Images/screenshot.jpg)
 
 ## Live version
 
@@ -21,6 +21,8 @@ For the live version of this project please visit the following [link]()
 ```bash
     git clon git@github.com:Mesi14/RPS_Game.git
     cd into the folder by typing: cd RPS_Game
+    open index.html in the browser
+    open the console and start playing the game
 ```
 
 ## Technology
