@@ -15,7 +15,7 @@ This is tha console version of the classical Rock Paper Scissors Game. There are
 
 ## Live version
 
-For the live version of this project please visit the following [link]()
+For the live version of this project please visit the following [link](https://mesi14.github.io/RPS_Game/)
 
 ## Get_started
 ```bash
