@@ -1,1 +1,42 @@
 # Rock Paper Scissors Game
+
+<img alt="version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+This is tha console version of the classical Rock Paper Scissors Game. There are two players and they both have to choose betwee
+
+## Table of Contents
+- [Installation](#get_started)
+- [Technology](#technology)
+- [Author](#author)
+- [Future Functionalities](#future_functionalities)
+- [Support](#support)
+
+
+![screenshot]()
+
+## Live version
+
+For the live version of this project please visit the following [link]()
+
+## Get_started
+```bash
+    git clon git@github.com:Mesi14/RPS_Game.git
+    cd into the folder by typing: cd RPS_Game
+```
+
+## Technology
+
+- HTML
+- CSS
+- JavaScript ES6
+
+## Author :bust_in_silhouette:
+
+- [Mesi](https://github.com/Mesi14)
+
+## Future_Functionalities:
+
+- GUI
+
+## Support
+
+Give a :star: if you liked the app
