@@ -11,7 +11,7 @@ This is tha console version of the classical Rock Paper Scissors Game. There are
 - [Support](#support)
 
 
-![screenshot]()
+![screenshot](./Images/screenshot.jpg)
 
 ## Live version
 
