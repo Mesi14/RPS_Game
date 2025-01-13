@@ -9,9 +9,33 @@
     <body>
         <main>
             <h1>Rock Paper Scissors</h1>
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <div class="gameboard">
+                <p>Please make your choice:</p>
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div class="gameboard">
+                <p>Your choice: </p>
+                <p id="currHumanSelection"></p>
+                <p>:</p>
+                <p>Computer's choice</p>
+                <p id="currPCSelection"></p>
+            </div>
+            <div class="gameboard">
+                <table>
+                    <tr>
+                        <th>Your Score:</th>
+                        <th> - </th>
+                        <th>Pc's Score</th>
+                    </tr>
+                    <tr>
+                        <td id="humanScore"></td>
+                        <td> - </td>
+                        <td id="pcScore"></td>
+                    </tr>
+                </table>
+            </div>
         </main>
         <script src="game.js"></script> 
     </body>
