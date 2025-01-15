@@ -19,8 +19,21 @@ main {
 
 button {
   width: 100px;
+  height: 100px;
   background-color: rgb(51, 84, 121);
   border: 2px solid #fff;
   border-radius: 5px;
   color: #e7e6e6;
+}
+
+#results {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: rgb(178, 183, 155);
+  justify-content: space-around;
+  align-items: center;
 }

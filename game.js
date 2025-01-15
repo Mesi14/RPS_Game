@@ -1,23 +1,12 @@
-let humanScore = 0;
-let computerScore = 0;
+const humanChoice = document.getElementById("humanChoiceText");
+const buttonsDiv = document.getElementById("humanChoices");
+let humanScore = document.getElementById("pScore").innerHTML;
+let computerScore = document.getElementById("cScore").innerHTML;
 
 let getComputerChoice = () => {
     const choices = ["rock", "paper", "scissors"];
     let idx = Math.floor(Math.random() * 3);
     return choices[idx]; 
-}
-
-let isChoiceValid = (choice) => {
-    let currChoice = choice.toLowerCase();
-    return (currChoice === "rock" || currChoice === "paper" || currChoice === "scissors") ? true : false
-}
-
-let getHumanChoice = () => {
-    let choice = prompt("Enter your choice:")
-    while(!isChoiceValid(choice)) {
-        choice = prompt("Enter either rock, paper, or scissors");
-    }
-    return choice.toLowerCase();
 }
 
 let playRound = (humanChoice, computerChoice) => {
@@ -56,17 +45,19 @@ let playRound = (humanChoice, computerChoice) => {
 let playGame = () => {
     console.log('Welcome to the Rock Paper Scissors Console App!')
     console.log('===============================================')
-    for(let i=0; i<5; i++) {
-        playRound(getComputerChoice(), getHumanChoice());
-    }
-    if(humanScore > computerScore) {
-        console.log(`You win by ${humanScore-computerScore} points. Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
-    } else if(humanScore === computerScore) {
-        console.log(`It's a tie! Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
-    } else {
-        console.log(`You loose by ${computerScore-humanScore} points. Final results: Human: ${humanScore} : Computer: ${computerScore}!`)
-    }
-    console.log("Game over!")
+    
+    humanChoice.innerHTML = 'Please make your choice now!'
+    buttonsDiv.addEventListener('click', ev => {
+        if(ev.target.classList.contains('buttons')) {
+            let currChoice = ev.target.innerHTML.toLowerCase();
+            playRound(currChoice, getComputerChoice());
+
+            };
+        }
+    );
+    
+    console.log(humanScore);
+    console.log(computerScore)
 }
 
 playGame();
