@@ -38,6 +38,7 @@ For the live version of this project please visit the following [link](https://m
 ## Future_Functionalities:
 
 - GUI
+- After this addition, the README.md Get started description will be edited
 
 ## Support
 
