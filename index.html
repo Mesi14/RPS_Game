@@ -9,33 +9,22 @@
     <body>
         <main>
             <h1>Rock Paper Scissors</h1>
-            <div class="gameboard">
-                <p>Please make your choice:</p>
-                <button id="rock">Rock</button>
-                <button id="paper">Paper</button>
-                <button id="scissors">Scissors</button>
+            <h2 id="humanChoiceText"></h2>
+            <div id="humanChoices">
+                <button class="buttons" id="rock">Rock</button>
+                <button class="buttons" id="paper">Paper</button>
+                <button class="buttons" id="scissors">Scissors</button>  
             </div>
-            <div class="gameboard">
-                <p>Your choice: </p>
-                <p id="currHumanSelection"></p>
-                <p>:</p>
-                <p>Computer's choice</p>
-                <p id="currPCSelection"></p>
-            </div>
-            <div class="gameboard">
-                <table>
-                    <tr>
-                        <th>Your Score:</th>
-                        <th> - </th>
-                        <th>Pc's Score</th>
-                    </tr>
-                    <tr>
-                        <td id="humanScore"></td>
-                        <td> - </td>
-                        <td id="pcScore"></td>
-                    </tr>
-                </table>
-            </div>
+            <div id="results">
+                <div class="playerScore">
+                    <h2>Player</h2>
+                    <p class="scores" id="pScore">0</p>
+                </div>       
+                <div class="computerScore">
+                    <h2>Computer</h2>
+                    <p class="scores" id="cScore">0</p>
+                </div>
+            </div>         
         </main>
         <script src="game.js"></script> 
     </body>
